@@ -1,0 +1,44 @@
+{
+  "name": "@bakeryjs/builder",
+  "version": "1.0.0",
+  "description": "Builder pattern implementation for Node.js",
+  "main": "builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run-script eslint && npm run-script prettier:check && mocha test/*",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakeryjs/builder.git"
+  },
+  "author": "Yehor Bublyk <yehor.bublyk@generics.space>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakeryjs/builder/issues"
+  },
+  "homepage": "https://github.com/bakeryjs/builder#readme",
+  "keywords": [
+    "bakeryjs",
+    "builder",
+    "pattern"
+  ],
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "prettier": "^2.1.2"
+  }
+}
