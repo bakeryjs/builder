@@ -40,4 +40,8 @@ mocha.describe('Builder', () => {
     const actual = Builder(object).foo(expected.foo).build();
     assert.deepStrictEqual(actual, expected);
   });
+  mocha.it('validate error on reserved word usage', () => {
+    const object = { build: '' };
+    assert.throws(() => Builder(object));
+  });
 });
