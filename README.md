@@ -12,6 +12,7 @@ $ npm install @bakeryjs/builder
 
 ## How to use
 
+<!-- prettier-ignore -->
 ```javascript
 const prototype = { name: '', age: 0 };
 const user = Builder(prototype)
@@ -22,4 +23,4 @@ const user = Builder(prototype)
 
 It is possible to use `Builder` as with object as with class or function.
 
-__Note__: keyword `build` reserved by `Builder` and cannot be used as a variable name in prototype object.
+**Note**: keyword `build` reserved by `Builder` and cannot be used as a variable name in prototype object.
