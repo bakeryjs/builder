@@ -1,7 +1,7 @@
 {
   "name": "@bakeryjs/builder",
   "version": "1.0.0",
-  "description": "Builder pattern implementation for Node.js",
+  "description": "Generic Builder for JavaScript objects",
   "main": "builder.js",
   "directories": {
     "lib": "lib",
